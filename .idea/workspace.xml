@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5652cf2a-8291-4a4d-9833-3085e6096924" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/thread/chapter2/AtomicityDemo$HostInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thread/chapter2/AtomicityDemo$HostInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/thread/chapter2/AtomicityDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thread/chapter2/AtomicityDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/thread/chapter2/TestAtom$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thread/chapter2/TestAtom$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/thread/chapter2/TestAtom$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thread/chapter2/TestAtom$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/thread/chapter2/TestAtom.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thread/chapter2/TestAtom.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,14 +42,22 @@
   <component name="ProjectId" id="1ZWRO2IlFzis3gZdYJbLJBcswvA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn tomcat:run" />
+      <command value="mvn clean" />
+    </option>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -57,7 +71,46 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestAtom">
+  <component name="RunManager" selected="Application.ReentrantReadWriteUpgrade">
+    <configuration name="ReadWriteLockDowngrade" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thread.chapter3.ReadWriteLockDowngrade" />
+      <module name="multithread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thread.chapter3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReadWriteLockUsage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thread.chapter3.ReadWriteLockUsage" />
+      <module name="multithread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thread.chapter3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReentrantReadWriteUpgrade" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thread.chapter3.ReentrantReadWriteUpgrade" />
+      <module name="multithread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thread.chapter3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestAtom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.thread.chapter2.TestAtom" />
       <module name="multithread" />
@@ -71,38 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestVisibility" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thread.chapter2.TestVisibility" />
+    <configuration name="TestLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thread.chapter3.TestLock" />
       <module name="multithread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thread.chapter2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestVisibility2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thread.chapter2.TestVisibility2" />
-      <module name="multithread" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.thread.chapter2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WelcomeApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thread.chapter1.WelcomeApp" />
-      <module name="multithread" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.thread.chapter1.*" />
+          <option name="PATTERN" value="com.thread.chapter3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,10 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReentrantReadWriteUpgrade" />
+        <item itemvalue="Application.ReadWriteLockDowngrade" />
+        <item itemvalue="Application.ReadWriteLockUsage" />
+        <item itemvalue="Application.TestLock" />
         <item itemvalue="Application.TestAtom" />
-        <item itemvalue="Application.TestVisibility2" />
-        <item itemvalue="Application.TestVisibility" />
-        <item itemvalue="Application.WelcomeApp" />
       </list>
     </recent_temporary>
   </component>
@@ -134,6 +162,10 @@
       <workItem from="1585099873807" duration="17000" />
       <workItem from="1585099909760" duration="34000" />
       <workItem from="1585235697145" duration="4525000" />
+      <workItem from="1585272258493" duration="14000" />
+      <workItem from="1585272291638" duration="51000" />
+      <workItem from="1585293528533" duration="2105000" />
+      <workItem from="1585462511973" duration="7467000" />
     </task>
     <servers />
   </component>
